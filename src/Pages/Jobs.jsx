@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import JobDetails from "./JobDetails";
+// import JobDetails from "./JobDetails";
 
 const Jobs = () => {
   const [data, setData] = useState([]); // Holds the jobs data
@@ -56,7 +56,7 @@ const Jobs = () => {
               <Link to={`/job/${job.id}`}>
                 <h2 className="text-lg font-bold">{job.title}</h2>
               </Link>
-              <JobDetails job={job} />
+              {/* <JobDetails job={job} /> */}
             </li>
           ))
         ) : (
