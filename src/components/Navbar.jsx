@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav className="bg-blue-500 p-4 text-white fixed bottom-0 w-full">
+    <nav className="fixed bottom-0 z-10 w-full p-4 text-white bg-blue-500">
       <ul className="flex justify-between">
         <li>
           <Link to="/" className="hover:underline">Home</Link>

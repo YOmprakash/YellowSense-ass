@@ -1,9 +1,16 @@
+const JobDetails = ({ job }) => {
+  // Ensure that job data is passed properly
+  if (!job) {
+    return <div>No Job Details Available</div>;
+  }
 
-const JobDetails = ({Job}) => {
-  console.log(job);
+  console.log(job)
+
   return (
-    <div>JobDetails</div>
-  )
-}
+    <div className="mt-2">
+     
+    </div>
+  );
+};
 
-export default JobDetails
+export default JobDetails;
