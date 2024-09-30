@@ -1,10 +1,11 @@
 //App.jsx
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import Bookmarks from "./pages/Bookmarks";
-import JobDetails from "./pages/JobDetails";
-import Jobs from "./pages/Jobs";
+import Jobs from "./Pages/Jobs";
+import Home from "./Pages/Home";
+import Bookmarks from "./Pages/Bookmarks";
+import JobDetails from "./Pages/JobDetails";
+
 
 function App() {
   return (
